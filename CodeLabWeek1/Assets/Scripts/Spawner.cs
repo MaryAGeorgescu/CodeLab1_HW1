@@ -21,6 +21,7 @@ public class Spawner : MonoBehaviour
 		GameObject newPrize= Instantiate(Resources.Load<GameObject>("Prefab/Prize"));
 		newPrize.transform.position = new Vector3(Random.Range(-10, 10), Random.Range(-5,5 ));
 		newPrize.transform.localScale = new Vector3(Random.Range(-5, 5), Random.Range(-5,5 ));
+		//change the shape of the spawned items
 		
 
 }
